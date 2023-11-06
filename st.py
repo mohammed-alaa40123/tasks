@@ -3,7 +3,7 @@ from sql_connect import *
 import seaborn as sns
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
-Task = st.sidebar.selectbox("Select an Task", ["Task 1", "Task 2", "Task 3", "Task 4", "Task 5",
+Task = st.sidebar.selectbox("Select a Task", ["Task 1", "Task 2", "Task 3", "Task 4", "Task 5",
                                            "Task 6", "Task 7", "Task 8", "Task 9", "Task 10"])
 
 
@@ -83,11 +83,7 @@ elif Task == "Task 6":
         st.markdown(f"**Today's Evaluation Count:** {today_count}")
         st.markdown(f"**This Week's Evaluation Count:** {this_week_count}")
         st.markdown(f"**This Month's Evaluation Count:** {this_month_count}")
-
-
-    
-    
-    
+   
 elif Task == "Task 7":
     st.title('Capstone Evaluation History Dashboard')
     username = st.text_input('Enter Username')
