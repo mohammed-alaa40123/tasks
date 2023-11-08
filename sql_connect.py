@@ -5,7 +5,7 @@ config = {
     'port':'3306',
     'password': '',
     'host': 'localhost', 
-    'database': 'electropi',
+    'database': 'electropi2',
 }
 def querry(query):
     connection = mysql.connector.connect(**config)
