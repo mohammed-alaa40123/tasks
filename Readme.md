@@ -15,9 +15,8 @@
        'database': 'your_database',
    }
 2. Ensure you have the required dependencies installed by running:
-```markdown
-```python
-#pip install -r requirements.txt
+    ```python
+    #pip install -r requirements.txt
 
 
 3. 
