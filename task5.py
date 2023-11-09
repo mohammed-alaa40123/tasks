@@ -38,7 +38,7 @@ def task5():
             current_learning_courses_data = querry(current_learning_courses_query)
             completed_courses_data = querry(completed_courses_query)
             capstone_data = querry(completed_capstone_query)
-
+# This part could be changed if the order of the columns changes
             st.subheader("User Details")
             st.write(f"User ID: {user_data[0][0]}")
             st.write(f"Age: {user_data[0][8]}")

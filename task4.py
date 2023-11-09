@@ -3,7 +3,7 @@ from sql_connect import *
 def task4():
     st.title('User Course Progress Dashboard')
 
-    all_users = [str(user[0]) for user in querry("SELECT DISTINCT user_id FROM user_lesson_history")]
+    all_users = [str(user[0]) for user in querry("SELECT DISTINCT user_id FROM users")]
 
     selected_users = st.selectbox('Select Users', ['All Users'] + all_users, index=0)
 
