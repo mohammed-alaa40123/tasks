@@ -1,4 +1,3 @@
-# SQL Connect
 
 ## Configuration Setup
 
@@ -15,9 +14,10 @@
        'database': 'your_database',
    }
 2. Ensure you have the required dependencies installed by running:
-    ```python
-    #pip install -r requirements.txt
+    
+    pip install -r requirements.txt
 
 
-3. 
-streamlit run st.py
+3. in cmd run st.py using Streamlit
+   ```python
+   streamlit run st.py
